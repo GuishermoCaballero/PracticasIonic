@@ -1,0 +1,30 @@
+<ion-content [fullscreen]="true" class="background">
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-icon>
+          <ion-img [src]="logo.png"></ion-img>
+        </ion-icon>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <div class="ion-text-center ion-text-uppercase ion-padding ion-margin texto-principal">
+            <h3>Encuentra trabajo en las mejores empresas</h3>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <form>
+            <ion-input type="text" placeholder="Empleo o empresa"></ion-input>
+            <ion-input type="text" placeholder="Madrid"><ion-icon name="location-outline"></ion-icon></ion-input>
+            <ion-button type="submit" id="boton-buscar">Buscar</ion-button>
+          </form>
+
+          <ion-button vertical="bottom" horizontal="end" expand="block" id="boton-login" color="#" ><h3>Iniciar sesión</h3></ion-button>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

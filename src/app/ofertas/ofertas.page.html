@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ofertas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let oferta of ofertas" >
+      
+      <ion-label>
+        <h3>{{oferta.titulo}}</h3>
+      </ion-label>
+      <h6 color="green">
+        {{oferta.id_sector}}
+        {{oferta.fecha_alta}}
+        {{oferta.salario}}
+        {{oferta.id_jornada}}
+      </h6>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
